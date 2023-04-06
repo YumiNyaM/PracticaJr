@@ -1,0 +1,86 @@
+﻿body {
+    font-size: 22px;
+    font-family:Arial;
+}
+.cuerpo {
+    align-items:stretch;
+    display:flex;
+    justify-content:center;
+}
+h1 {
+    color: #618CD2;
+    text-align:center;
+    font-size:1.5em;
+}
+input {
+    width: 100%;
+    border-radius: .3em;
+    border-width: .1em;
+    border-color: #d7d7d7;
+    padding: .3em .7em;
+}
+button {
+    background: #618CD2;
+    color: white;
+    position: absolute;
+    margin-top: 1em;
+    left: 50%;
+    border-radius: .5em;
+    border: none;
+    padding: .5em 1em;
+}
+button:hover {
+    background: #3971cd;
+    cursor:pointer;
+}
+.bloque1, .bloque2 {
+    flex: 0 0 auto;
+    width: 40%;
+}
+.bloque1 {
+    border-radius: 0.5em;
+    background: #f3f3f3;
+    padding: 1em;
+    display:flex;
+}
+.bloque1 img {
+    max-width: 100%;
+    align-self:center;
+}
+.bloque2{
+    padding:2em;
+    position:relative;
+}
+.error {
+    color: red;
+    font-size: .5em;
+}
+.resultado thead{
+    font-weight:600;
+}
+.resultado th {
+    border-bottom: solid #000000 .1em;
+}
+.resultado {
+    text-align: center;
+    width: 100%;
+}
+#tablaOrden {
+    margin-top: 2em;
+}
+.maximo{
+    color:red;
+}
+.minimo{
+    color:green;
+}
+@media screen and (max-width:480px){
+    body{
+        font-size:19px;
+    }
+    .bloque1, .bloque2{
+        width:90% !important;
+    }
+}
+
+
