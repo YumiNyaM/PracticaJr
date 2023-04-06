@@ -79,7 +79,10 @@ button:hover {
         font-size:19px;
     }
     .bloque1, .bloque2{
-        width:90% !important;
+        width:90%;
+    }
+    .cuerpo{
+        display:block;
     }
 }
 
